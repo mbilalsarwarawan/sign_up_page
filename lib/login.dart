@@ -24,7 +24,8 @@ class _MyLoginState extends State<MyLogin> {
           children: [
             Container(),
             Container(
-              padding: EdgeInsets.only(left: 35, top: 130),
+              padding: EdgeInsets.only(
+                  left: 35, top: MediaQuery.of(context).size.height * 0.15),
               child: Text(
                 'Welcome\nBack',
                 style: TextStyle(color: Colors.white, fontSize: 33),
